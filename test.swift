@@ -10,7 +10,7 @@ extension String? {
   }
 }
 
-let optionalString: String?
+var optionalString: String?
 
 print(optionalString.orEmpty)
 
